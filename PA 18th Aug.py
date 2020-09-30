@@ -34,6 +34,7 @@ class BookStore:
 
 if __name__=="__main__":
     n = int(input())
+    kos = 0
     books = {}
     for i in range (n):
         bookId = int(input())
